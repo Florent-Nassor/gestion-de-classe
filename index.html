@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr" data-t="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PrésenceClass – Gestion de présence en classe</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="splash">
+  <div class="logo">✓</div>
+  <h1>PrésenceClass</h1>
+  <p>Gestion de présence en classe</p>
+  <div class="load"><i></i></div>
+</div>
+
+<div id="app" class="hidden">
+  <aside>
+    <div class="brand"><span>✓</span>PrésenceClass</div>
+    <nav id="nav"></nav>
+    <button id="theme" class="btn ghost"></button>
+  </aside>
+  <main>
+    <header><h2 id="title"></h2></header>
+    <section id="view"></section>
+  </main>
+</div>
+
+<div id="modal" class="hidden"></div>
+<div id="toasts"></div>
+
+<script src="db.js"></script>
+<script src="charts.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
